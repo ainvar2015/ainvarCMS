@@ -1,0 +1,92 @@
+/* skin css only luma - BEGIN */
+
+
+/* hiding deprecated container */
+#modalBox #modalBoxBody .modalboxStyleContainer_corner_topLeft,
+#modalBox #modalBoxBody .modalboxStyleContainer_corner_topRight,
+#modalBox #modalBoxBody .modalboxStyleContainer_corner_bottomLeft,
+#modalBox #modalBoxBody .modalboxStyleContainer_corner_bottomRight {
+	display:none;
+}
+
+
+
+#modalBox #modalBoxBody {
+	background-color:#fff;
+	padding:1.5em;
+	
+	-moz-box-shadow:0 0 1em 0 rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 0 1em 0 rgba(0,0,0,0.5);
+	box-shadow:0 0 1em 0 rgba(0,0,0,0.5);
+}
+#modalBox.modalBoxBodyContentImageContainer #modalBoxBody {
+	padding:0;
+}
+#modalBox #modalBoxBody,
+#modalBox #modalBoxBody #modalBoxCloseButton {
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	-ms-border-radius:0.5em;
+	-khtml-border-radius:0.5em;
+	border-radius:0.5em;
+	
+	/*
+		border-box 	: 	The background is clipped to the border box
+		padding-box : 	The background is clipped to the padding box
+		content-box : 	The background is clipped to the content box
+	*/
+	-moz-background-clip:padding-box !important;
+	-webkit-background-clip:padding-box !important;
+	background-clip:padding-box !important;
+}
+#modalBox #modalBoxBody .modalBoxBodyContent {
+	padding-top:2.5em;
+}
+#modalBox.emphasis #modalBoxBody {
+	border:1px solid red;
+}
+
+
+/* modalBoxCloseButton */
+#modalBox #modalBoxBody #modalBoxCloseButton {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	text-align:right; 
+	width:100%;
+}
+#modalBox #modalBoxBody #modalBoxCloseButton a.closeModalBox,
+#modalBox #modalBoxBody #modalBoxCloseButton a.closeModalBox span {
+	display:block;
+	text-decoration:none;
+	color:#000;
+	cursor:pointer;
+}
+#modalBox #modalBoxBody #modalBoxCloseButton a.closeModalBox {
+	background:#efefef url(img/skins/default/closebutton_21x21.png) 99% 50% no-repeat;
+	padding:0.5em 0;
+}
+#modalBox #modalBoxBody #modalBoxCloseButton a.closeModalBox span {
+	padding:0 2em 0 0;
+}
+
+/* modalboxStyleContainer_surface */
+#modalBox #modalBoxBody .modalboxStyleContainer_surface_top,
+#modalBox #modalBoxBody .modalboxStyleContainer_surface_bottom {
+	position:absolute;
+	left:0;
+	width:100%;
+}
+#modalBox #modalBoxBody .modalboxStyleContainer_surface_top {
+	top:-2em;
+}
+#modalBox #modalBoxBody .modalboxStyleContainer_surface_bottom {
+	bottom:-2em;
+}
+#modalBox #modalBoxBody .modalboxStyleContainer_surface_top .modalboxStyleContainer_surface_body,
+#modalBox #modalBoxBody .modalboxStyleContainer_surface_bottom .modalboxStyleContainer_surface_body {
+	height:2em;
+	line-height:2em;
+}
+/* skin css only luma - END */

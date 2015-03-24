@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <projectname>BotonClientes1</projectname>
+  <menualignmenttype>0</menualignmenttype>
+  <menumargin>2</menumargin>
+  <menusavefolder>
+  </menusavefolder>
+  <menusaveformat>1</menusaveformat>
+  <menuseparatorimage>&lt;standard&gt;</menuseparatorimage>
+  <menubuttonarrowimage>&lt;standard&gt;</menubuttonarrowimage>
+  <menusubmenuarrowimage>&lt;standard&gt;</menusubmenuarrowimage>
+  <usemenubuttonarrowimage>True</usemenubuttonarrowimage>
+  <usemenusubmenuarrowimage>True</usemenusubmenuarrowimage>
+  <menupadding>2</menupadding>
+  <menubackgroundcolor>255, 255, 255, 255</menubackgroundcolor>
+  <menuborderwidth>1</menuborderwidth>
+  <menubordercolor>255, 128, 128, 128</menubordercolor>
+  <menuitempadding>2</menuitempadding>
+  <menuitemborderwidth>1</menuitemborderwidth>
+  <menunormalfont>Tahoma</menunormalfont>
+  <menunormalsize>11</menunormalsize>
+  <menunormalbold>False</menunormalbold>
+  <menunormalitalic>False</menunormalitalic>
+  <menunormalunderline>False</menunormalunderline>
+  <menunormalfontcolor>255, 0, 0, 0</menunormalfontcolor>
+  <menunormalbordercolor>255, 255, 255, 255</menunormalbordercolor>
+  <menunormalbackgroundcolor>255, 255, 255, 255</menunormalbackgroundcolor>
+  <menumouseoverfont>Tahoma</menumouseoverfont>
+  <menumouseoversize>11</menumouseoversize>
+  <menumouseoverbold>False</menumouseoverbold>
+  <menumouseoveritalic>False</menumouseoveritalic>
+  <menumouseoverunderline>False</menumouseoverunderline>
+  <menumouseoverfontcolor>255, 0, 0, 0</menumouseoverfontcolor>
+  <menumouseoverbordercolor>255, 190, 210, 214</menumouseoverbordercolor>
+  <menumouseoverbackgroundcolor>255, 214, 238, 244</menumouseoverbackgroundcolor>
+  <buttons>
+    <button>
+      <buttontemplate>
+        <templatename>Button</templatename>
+        <customtemplatename>False</customtemplatename>
+        <customname>False</customname>
+        <customtemplate>True</customtemplate>
+        <text>
+        </text>
+        <font>Tahoma, 18, 1</font>
+        <textcolor>255, 0, 0, 0</textcolor>
+        <textpositionalign>1</textpositionalign>
+        <textpositionvalign>1</textpositionvalign>
+        <textoffsetx>1</textoffsetx>
+        <textoffsety>1</textoffsety>
+        <textoutline>False</textoutline>
+        <textoutlinesize>1</textoutlinesize>
+        <usetextshadow>False</usetextshadow>
+        <textshadowposx>1</textshadowposx>
+        <textshadowposy>1</textshadowposy>
+        <textshadowcolor>255, 0, 0, 0</textshadowcolor>
+        <textshadowalphablending>100</textshadowalphablending>
+        <buttonautosize>False</buttonautosize>
+        <buttonheight>30</buttonheight>
+        <buttonwidth>110</buttonwidth>
+        <roundedcornerradius>25</roundedcornerradius>
+        <buttontype>0</buttontype>
+        <colortype>0</colortype>
+        <buttonstartcolor>255, 235, 235, 235</buttonstartcolor>
+        <buttonendcolor>255, 64, 64, 64</buttonendcolor>
+        <buttongradientdirection>0</buttongradientdirection>
+        <texturewrapmode>0</texturewrapmode>
+        <textureimage>
+        </textureimage>
+        <textureoriginalpicture>
+        </textureoriginalpicture>
+        <texturerandomizedpicture>
+        </texturerandomizedpicture>
+        <texturerandomize>False</texturerandomize>
+        <texturewidth>100</texturewidth>
+        <textureheight>100</textureheight>
+        <texturehue>0</texturehue>
+        <glossytype>2</glossytype>
+        <buttonglossycolor>255, 224, 224, 224</buttonglossycolor>
+        <buttonglossyalphablending>67</buttonglossyalphablending>
+        <usebuttonshadow>False</usebuttonshadow>
+        <buttonshadowposx>2</buttonshadowposx>
+        <buttonshadowposy>2</buttonshadowposy>
+        <buttonshadowcolor>255, 0, 0, 0</buttonshadowcolor>
+        <buttonshadowalphablending>50</buttonshadowalphablending>
+        <usebuttonglow>False</usebuttonglow>
+        <buttonglowcolor>255, 255, 0, 0</buttonglowcolor>
+        <buttonglowsize>5</buttonglowsize>
+        <usebuttonstroke>True</usebuttonstroke>
+        <buttonstrokecolor>255, 224, 224, 224</buttonstrokecolor>
+        <buttonstrokesize>2</buttonstrokesize>
+        <usepulsing>False</usepulsing>
+        <usegrayscale>False</usegrayscale>
+        <iconfilename>
+        </iconfilename>
+        <iconoriginalpicture>
+        </iconoriginalpicture>
+        <iconpositionalign>0</iconpositionalign>
+        <iconalphablending>100</iconalphablending>
+        <iconoffsetx>0</iconoffsetx>
+        <iconoffsety>0</iconoffsety>
+        <useiconshadow>False</useiconshadow>
+        <iconshadowposx>1</iconshadowposx>
+        <iconshadowposy>1</iconshadowposy>
+        <iconshadowcolor>255, 0, 0, 0</iconshadowcolor>
+        <iconshadowalphablending>50</iconshadowalphablending>
+        <usebuttoninnerstroke>False</usebuttoninnerstroke>
+        <buttoninnerstrokecolor>255, 255, 215, 0</buttoninnerstrokecolor>
+        <buttoninnerstrokesize>2</buttoninnerstrokesize>
+        <usebuttonlighteffect>False</usebuttonlighteffect>
+        <buttonlighteffectcolor>255, 204, 255, 255</buttonlighteffectcolor>
+        <buttonlighteffectalphablending>100</buttonlighteffectalphablending>
+        <usetextrotation>False</usetextrotation>
+        <textrotationdegree>45</textrotationdegree>
+        <buttonlighteffecthorizontal>50</buttonlighteffecthorizontal>
+        <buttonlighteffectvertical>100</buttonlighteffectvertical>
+        <usemirroreffect>False</usemirroreffect>
+        <mirroreffectheight>40</mirroreffectheight>
+        <mirroreffectdistance>0</mirroreffectdistance>
+        <resizeicon>False</resizeicon>
+        <iconresizewidth>32</iconresizewidth>
+        <iconresizeheight>32</iconresizeheight>
+        <glossadjust>False</glossadjust>
+        <glossinflate>2</glossinflate>
+        <glossheight>50</glossheight>
+        <glossinvert>False</glossinvert>
+        <usebuttonimage>False</usebuttonimage>
+        <buttonimagefilename>
+        </buttonimagefilename>
+        <buttonimageoriginalpicture>
+        </buttonimageoriginalpicture>
+        <buttonimagehue>0</buttonimagehue>
+        <menulink>
+        </menulink>
+        <menulinktarget>
+        </menulinktarget>
+        <menuhint>
+        </menuhint>
+        <backgroundtype>2</backgroundtype>
+        <backgroundstartcolor>255, 255, 255, 255</backgroundstartcolor>
+        <backgroundendcolor>255, 255, 255, 255</backgroundendcolor>
+        <backgroundgradientdirection>0</backgroundgradientdirection>
+        <backgroundtexturewrapmode>0</backgroundtexturewrapmode>
+        <backgroundtextureimage>
+        </backgroundtextureimage>
+        <backgroundtextureoriginalpicture>
+        </backgroundtextureoriginalpicture>
+        <backgroundtexturewidth>100</backgroundtexturewidth>
+        <backgroundtextureheight>100</backgroundtextureheight>
+        <backgroundtexturehue>0</backgroundtexturehue>
+      </buttontemplate>
+      <mouseovertemplate>
+        <templatename>Button-over</templatename>
+        <customtemplatename>False</customtemplatename>
+        <customname>False</customname>
+        <customtemplate>True</customtemplate>
+        <text>
+        </text>
+        <font>Tahoma, 18, 1</font>
+        <textcolor>255, 0, 0, 0</textcolor>
+        <textpositionalign>1</textpositionalign>
+        <textpositionvalign>1</textpositionvalign>
+        <textoffsetx>1</textoffsetx>
+        <textoffsety>1</textoffsety>
+        <textoutline>False</textoutline>
+        <textoutlinesize>1</textoutlinesize>
+        <usetextshadow>False</usetextshadow>
+        <textshadowposx>1</textshadowposx>
+        <textshadowposy>1</textshadowposy>
+        <textshadowcolor>255, 0, 0, 0</textshadowcolor>
+        <textshadowalphablending>100</textshadowalphablending>
+        <buttonautosize>False</buttonautosize>
+        <buttonheight>30</buttonheight>
+        <buttonwidth>110</buttonwidth>
+        <roundedcornerradius>25</roundedcornerradius>
+        <buttontype>0</buttontype>
+        <colortype>0</colortype>
+        <buttonstartcolor>255, 255, 255, 255</buttonstartcolor>
+        <buttonendcolor>255, 64, 64, 64</buttonendcolor>
+        <buttongradientdirection>0</buttongradientdirection>
+        <texturewrapmode>0</texturewrapmode>
+        <textureimage>
+        </textureimage>
+        <textureoriginalpicture>
+        </textureoriginalpicture>
+        <texturerandomizedpicture>
+        </texturerandomizedpicture>
+        <texturerandomize>False</texturerandomize>
+        <texturewidth>100</texturewidth>
+        <textureheight>100</textureheight>
+        <texturehue>0</texturehue>
+        <glossytype>2</glossytype>
+        <buttonglossycolor>255, 255, 255, 255</buttonglossycolor>
+        <buttonglossyalphablending>67</buttonglossyalphablending>
+        <usebuttonshadow>False</usebuttonshadow>
+        <buttonshadowposx>2</buttonshadowposx>
+        <buttonshadowposy>2</buttonshadowposy>
+        <buttonshadowcolor>255, 0, 0, 0</buttonshadowcolor>
+        <buttonshadowalphablending>50</buttonshadowalphablending>
+        <usebuttonglow>False</usebuttonglow>
+        <buttonglowcolor>255, 255, 255, 255</buttonglowcolor>
+        <buttonglowsize>13</buttonglowsize>
+        <usebuttonstroke>True</usebuttonstroke>
+        <buttonstrokecolor>255, 112, 112, 112</buttonstrokecolor>
+        <buttonstrokesize>2</buttonstrokesize>
+        <usepulsing>False</usepulsing>
+        <usegrayscale>False</usegrayscale>
+        <iconfilename>
+        </iconfilename>
+        <iconoriginalpicture>
+        </iconoriginalpicture>
+        <iconpositionalign>0</iconpositionalign>
+        <iconalphablending>100</iconalphablending>
+        <iconoffsetx>0</iconoffsetx>
+        <iconoffsety>0</iconoffsety>
+        <useiconshadow>False</useiconshadow>
+        <iconshadowposx>1</iconshadowposx>
+        <iconshadowposy>1</iconshadowposy>
+        <iconshadowcolor>255, 0, 0, 0</iconshadowcolor>
+        <iconshadowalphablending>50</iconshadowalphablending>
+        <usebuttoninnerstroke>False</usebuttoninnerstroke>
+        <buttoninnerstrokecolor>255, 255, 255, 255</buttoninnerstrokecolor>
+        <buttoninnerstrokesize>3</buttoninnerstrokesize>
+        <usebuttonlighteffect>False</usebuttonlighteffect>
+        <buttonlighteffectcolor>255, 224, 224, 224</buttonlighteffectcolor>
+        <buttonlighteffectalphablending>100</buttonlighteffectalphablending>
+        <usetextrotation>False</usetextrotation>
+        <textrotationdegree>45</textrotationdegree>
+        <buttonlighteffecthorizontal>50</buttonlighteffecthorizontal>
+        <buttonlighteffectvertical>100</buttonlighteffectvertical>
+        <usemirroreffect>False</usemirroreffect>
+        <mirroreffectheight>40</mirroreffectheight>
+        <mirroreffectdistance>0</mirroreffectdistance>
+        <resizeicon>False</resizeicon>
+        <iconresizewidth>32</iconresizewidth>
+        <iconresizeheight>32</iconresizeheight>
+        <glossadjust>False</glossadjust>
+        <glossinflate>2</glossinflate>
+        <glossheight>50</glossheight>
+        <glossinvert>False</glossinvert>
+        <usebuttonimage>False</usebuttonimage>
+        <buttonimagefilename>
+        </buttonimagefilename>
+        <buttonimageoriginalpicture>
+        </buttonimageoriginalpicture>
+        <buttonimagehue>0</buttonimagehue>
+        <menulink>
+        </menulink>
+        <menulinktarget>
+        </menulinktarget>
+        <menuhint>
+        </menuhint>
+        <backgroundtype>2</backgroundtype>
+        <backgroundstartcolor>255, 255, 255, 255</backgroundstartcolor>
+        <backgroundendcolor>255, 255, 255, 255</backgroundendcolor>
+        <backgroundgradientdirection>0</backgroundgradientdirection>
+        <backgroundtexturewrapmode>0</backgroundtexturewrapmode>
+        <backgroundtextureimage>
+        </backgroundtextureimage>
+        <backgroundtextureoriginalpicture>
+        </backgroundtextureoriginalpicture>
+        <backgroundtexturewidth>100</backgroundtexturewidth>
+        <backgroundtextureheight>100</backgroundtextureheight>
+        <backgroundtexturehue>0</backgroundtexturehue>
+      </mouseovertemplate>
+    </button>
+  </buttons>
+</project>
