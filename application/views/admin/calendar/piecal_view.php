@@ -13,8 +13,8 @@
 
 <!-- Scroll to top -->
 <span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span>
-<script src="<?php echo base_url() ?>assets/admin/bower_components/underscore/underscore-min.js"></script>
-<script src="<?php echo base_url() ?>assets/admin/bower_components/bootstrap-calendar/js/calendar.min.js"></script>
+<script src="<?php echo base_url() ?>assets/admin/js/underscore-min.js"></script>
+<script src="<?php echo base_url() ?>assets/admin/js/calendar.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/admin/js/custom.js"></script> <!-- Custom codes -->
 <script type="text/javascript">
 (function($) {
@@ -28,7 +28,7 @@
 		events_source: '<?php echo base_url() ?>events/getAll',
 		view: 'month',
 		language: 'es-ES',
-		tmpl_path: '<?php echo base_url() ?>assets/admin/bower_components/bootstrap-calendar/tmpls/',
+		tmpl_path: '<?php echo base_url() ?>assets/admin/js/bootstrap-calendar/tmpls/',
 		tmpl_cache: false,
 		day: yyyy + "-" + mm + "-" + dd,
 		time_start: '10:00',

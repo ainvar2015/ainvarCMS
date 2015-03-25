@@ -22,9 +22,9 @@
 <script src="<?php echo base_url(); ?>assets/admin/js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="<?php echo base_url(); ?>assets/admin/js/jquery-ui.min.js"></script> <!-- jQuery UI -->
 <script src="<?php echo base_url(); ?>assets/admin/js/jquery.lightbox.min.js"></script> <!-- jQuery Lightbox Evolution -->
-<script src="<?php echo base_url() ?>assets/admin/bower_components/bootstrap-calendar/js/language/es-ES.js"></script>
-<script src="<?php echo base_url() ?>assets/admin/bower_components/underscore/underscore-min.js"></script>
-<script src="<?php echo base_url() ?>assets/admin/bower_components/bootstrap-calendar/js/calendar.js"></script>
+<script src="<?php echo base_url() ?>assets/admin/js/language/es-ES.js"></script>
+<script src="<?php echo base_url() ?>assets/admin/js/underscore-min.js"></script>
+<script src="<?php echo base_url() ?>assets/admin/js/calendar.js"></script>
 <script src="<?php echo base_url(); ?>assets/admin/js/bootstrap.file-input.js"></script><!-- Bootstrap File Input -->
 <script src="<?php echo base_url(); ?>assets/admin/js/icheck.min.js"></script> <!-- Icheck -->
 

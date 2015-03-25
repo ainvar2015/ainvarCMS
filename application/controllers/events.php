@@ -11,11 +11,11 @@ class Events extends CI_Controller {
 		if($this->session->userdata('is_logued_in') === TRUE)
 		{
 			$data['titulo'] = 'ainvar.net - Añadir Evento';
-			$this->load->view('admin/headcal_view', $data);
+			$this->load->view('admin/calendar/headcal_view', $data);
 			$this->load->view('admin/cabecera_view',$data);
 			$this->load->view('admin/sidebar_view');
 			$this->load->view("admin/add_event");
-			$this->load->view('admin/piecal_view');
+			$this->load->view('admin/calendar/piecal_view');
 		}else{
 			redirect(base_url().'login');
         }
