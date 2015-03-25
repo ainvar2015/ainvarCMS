@@ -6309,3 +6309,841 @@ DEBUG - 2015-03-25 17:50:11 --> Model Class Initialized
 DEBUG - 2015-03-25 17:50:11 --> File loaded: application/views/admin/vereventos_view.php
 DEBUG - 2015-03-25 17:50:11 --> Final output sent to browser
 DEBUG - 2015-03-25 17:50:11 --> Total execution time: 0.3900
+DEBUG - 2015-03-25 18:09:46 --> Config Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:09:46 --> URI Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Router Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Output Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Security Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Input Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:09:46 --> Language Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:09:46 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:09:46 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:09:46 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:09:46 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Session Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:09:46 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Session routines successfully run
+DEBUG - 2015-03-25 18:09:46 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:09:46 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> File loaded: application/views/admin/calendar/headcal_view.php
+DEBUG - 2015-03-25 18:09:46 --> File loaded: application/views/admin/cabecera_view.php
+DEBUG - 2015-03-25 18:09:46 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:09:46 --> File loaded: application/views/admin/calendar/calendar_view.php
+DEBUG - 2015-03-25 18:09:46 --> File loaded: application/views/admin/calendar/piecal_view.php
+DEBUG - 2015-03-25 18:09:46 --> Final output sent to browser
+DEBUG - 2015-03-25 18:09:46 --> Total execution time: 0.5300
+DEBUG - 2015-03-25 18:09:46 --> Config Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:09:46 --> URI Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Router Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Output Class Initialized
+DEBUG - 2015-03-25 18:09:46 --> Security Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Input Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:09:47 --> Language Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:09:47 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Session Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:09:47 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Session routines successfully run
+DEBUG - 2015-03-25 18:09:47 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:09:47 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:09:47 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:09:47 --> Final output sent to browser
+DEBUG - 2015-03-25 18:09:47 --> Total execution time: 0.4400
+DEBUG - 2015-03-25 18:09:47 --> Config Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:09:47 --> URI Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Router Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Output Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Security Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Input Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:09:47 --> Language Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:09:47 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Session Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:09:47 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Session routines successfully run
+DEBUG - 2015-03-25 18:09:47 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:09:47 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Model Class Initialized
+DEBUG - 2015-03-25 18:09:47 --> Final output sent to browser
+DEBUG - 2015-03-25 18:09:47 --> Total execution time: 0.4000
+DEBUG - 2015-03-25 18:57:02 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:03 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:03 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:03 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:03 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:03 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:03 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:03 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> A session cookie was not found.
+DEBUG - 2015-03-25 18:57:03 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:03 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:03 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:03 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:04 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:04 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:04 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:04 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:04 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:04 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:04 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2015-03-25 18:57:04 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2015-03-25 18:57:04 --> Email Class Initialized
+DEBUG - 2015-03-25 18:57:04 --> File loaded: application/views/admin/login_view.php
+DEBUG - 2015-03-25 18:57:04 --> Final output sent to browser
+DEBUG - 2015-03-25 18:57:04 --> Total execution time: 0.7740
+DEBUG - 2015-03-25 18:57:10 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:10 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:10 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:10 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:10 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:11 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:11 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:11 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:11 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:11 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2015-03-25 18:57:11 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2015-03-25 18:57:11 --> Email Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2015-03-25 18:57:11 --> XSS Filtering completed
+DEBUG - 2015-03-25 18:57:11 --> XSS Filtering completed
+DEBUG - 2015-03-25 18:57:11 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:11 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:11 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:11 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:11 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:11 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:11 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:11 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:12 --> File loaded: application/views/admin/calendar/headcal_view.php
+DEBUG - 2015-03-25 18:57:12 --> File loaded: application/views/admin/cabecera_view.php
+DEBUG - 2015-03-25 18:57:12 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:57:12 --> File loaded: application/views/admin/calendar/calendar_view.php
+DEBUG - 2015-03-25 18:57:12 --> File loaded: application/views/admin/calendar/piecal_view.php
+DEBUG - 2015-03-25 18:57:12 --> Final output sent to browser
+DEBUG - 2015-03-25 18:57:12 --> Total execution time: 0.6330
+DEBUG - 2015-03-25 18:57:12 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:13 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:13 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:13 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:13 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:13 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:57:13 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:57:13 --> Final output sent to browser
+DEBUG - 2015-03-25 18:57:13 --> Total execution time: 0.4530
+DEBUG - 2015-03-25 18:57:13 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:13 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:13 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:13 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:13 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:13 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:13 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:13 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:14 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:14 --> Final output sent to browser
+DEBUG - 2015-03-25 18:57:14 --> Total execution time: 0.5190
+DEBUG - 2015-03-25 18:57:18 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Config Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:18 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:57:18 --> URI Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Router Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Output Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Security Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:18 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Input Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:57:18 --> Language Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:57:18 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:57:19 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:19 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:19 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:19 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Session Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:57:19 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Session routines successfully run
+DEBUG - 2015-03-25 18:57:19 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Model Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:57:19 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:57:19 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:57:19 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:57:19 --> Final output sent to browser
+DEBUG - 2015-03-25 18:57:19 --> Total execution time: 0.2290
+DEBUG - 2015-03-25 18:57:19 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:57:19 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:57:19 --> Final output sent to browser
+DEBUG - 2015-03-25 18:57:19 --> Total execution time: 0.2680
+DEBUG - 2015-03-25 18:58:57 --> Config Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:58:57 --> URI Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Router Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Output Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Security Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Input Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:58:57 --> Language Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:58:57 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:58:57 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:58:57 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:58:57 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Session Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:58:57 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Session routines successfully run
+DEBUG - 2015-03-25 18:58:57 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:58:57 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> File loaded: application/views/admin/calendar/headcal_view.php
+DEBUG - 2015-03-25 18:58:57 --> File loaded: application/views/admin/cabecera_view.php
+DEBUG - 2015-03-25 18:58:57 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:58:57 --> File loaded: application/views/admin/calendar/calendar_view.php
+DEBUG - 2015-03-25 18:58:57 --> File loaded: application/views/admin/calendar/piecal_view.php
+DEBUG - 2015-03-25 18:58:57 --> Final output sent to browser
+DEBUG - 2015-03-25 18:58:57 --> Total execution time: 0.9048
+DEBUG - 2015-03-25 18:58:57 --> Config Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:58:57 --> URI Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Router Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Output Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Security Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Input Class Initialized
+DEBUG - 2015-03-25 18:58:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:58:58 --> Language Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:58:58 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Session Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:58:58 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Session routines successfully run
+DEBUG - 2015-03-25 18:58:58 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:58:58 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:58:58 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:58:58 --> Final output sent to browser
+DEBUG - 2015-03-25 18:58:58 --> Total execution time: 0.4368
+DEBUG - 2015-03-25 18:58:58 --> Config Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:58:58 --> URI Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Router Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Output Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Security Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Input Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:58:58 --> Language Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:58:58 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Session Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:58:58 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Session routines successfully run
+DEBUG - 2015-03-25 18:58:58 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:58:58 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Model Class Initialized
+DEBUG - 2015-03-25 18:58:58 --> Final output sent to browser
+DEBUG - 2015-03-25 18:58:58 --> Total execution time: 0.4056
+DEBUG - 2015-03-25 18:59:03 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:03 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:03 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:03 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:03 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:03 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:03 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:03 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:03 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:59:03 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:59:03 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:03 --> Total execution time: 0.1092
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:03 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:03 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:03 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:03 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 18:59:03 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 18:59:03 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:03 --> Total execution time: 0.3432
+DEBUG - 2015-03-25 18:59:07 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:07 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:07 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:07 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:07 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:07 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:07 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:07 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:07 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:07 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:07 --> File loaded: application/views/admin/vereventos_view.php
+DEBUG - 2015-03-25 18:59:07 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:07 --> Total execution time: 0.4836
+DEBUG - 2015-03-25 18:59:21 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:21 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:21 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:21 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:21 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:21 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:21 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Image Lib Class Initialized
+DEBUG - 2015-03-25 18:59:21 --> Helper loaded: my_menu_helper
+DEBUG - 2015-03-25 18:59:21 --> File loaded: application/views/admin/head_view.php
+DEBUG - 2015-03-25 18:59:21 --> File loaded: application/views/admin/cabecera_view.php
+DEBUG - 2015-03-25 18:59:21 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:59:21 --> File loaded: application/views/admin/menuadmin_view.php
+DEBUG - 2015-03-25 18:59:21 --> File loaded: application/views/admin/pie_view.php
+DEBUG - 2015-03-25 18:59:21 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:21 --> Total execution time: 0.6396
+DEBUG - 2015-03-25 18:59:25 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:25 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:25 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:25 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:26 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:26 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:26 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:26 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Image Lib Class Initialized
+DEBUG - 2015-03-25 18:59:26 --> Helper loaded: my_menu_helper
+DEBUG - 2015-03-25 18:59:26 --> File loaded: application/views/admin/head_view.php
+DEBUG - 2015-03-25 18:59:26 --> File loaded: application/views/admin/cabecera_view.php
+DEBUG - 2015-03-25 18:59:26 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:59:26 --> File loaded: application/views/admin/editmenu_view.php
+DEBUG - 2015-03-25 18:59:26 --> File loaded: application/views/admin/pie_view.php
+DEBUG - 2015-03-25 18:59:26 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:26 --> Total execution time: 0.7176
+DEBUG - 2015-03-25 18:59:32 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:32 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:32 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:32 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:32 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:32 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:32 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:32 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:32 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:32 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:32 --> File loaded: application/views/admin/head_view.php
+DEBUG - 2015-03-25 18:59:33 --> File loaded: application/views/admin/cabecera_view.php
+ERROR - 2015-03-25 18:59:33 --> Severity: Notice  --> Undefined variable: modulos C:\xampp\htdocs\ainvarCMS1.6\application\views\admin\sidebar_view.php 57
+DEBUG - 2015-03-25 18:59:33 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:59:33 --> File loaded: application/views/admin/usuarios/usuarios_view.php
+DEBUG - 2015-03-25 18:59:33 --> File loaded: application/views/admin/pie_view.php
+DEBUG - 2015-03-25 18:59:33 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:33 --> Total execution time: 0.5772
+DEBUG - 2015-03-25 18:59:35 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:35 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:35 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:35 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:35 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:35 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:35 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:35 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:35 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:36 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:36 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:36 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:36 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:36 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:36 --> Model Class Initialized
+ERROR - 2015-03-25 18:59:36 --> Severity: Notice  --> Undefined variable: titulo C:\xampp\htdocs\ainvarCMS1.6\application\views\admin\head_view.php 7
+DEBUG - 2015-03-25 18:59:36 --> File loaded: application/views/admin/head_view.php
+ERROR - 2015-03-25 18:59:36 --> Severity: Notice  --> Undefined variable: titulo C:\xampp\htdocs\ainvarCMS1.6\application\views\admin\cabecera_view.php 60
+DEBUG - 2015-03-25 18:59:36 --> File loaded: application/views/admin/cabecera_view.php
+ERROR - 2015-03-25 18:59:36 --> Severity: Notice  --> Undefined variable: modulos C:\xampp\htdocs\ainvarCMS1.6\application\views\admin\sidebar_view.php 57
+DEBUG - 2015-03-25 18:59:36 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:59:36 --> File loaded: application/views/admin/usuarios/ver_usuario_view.php
+DEBUG - 2015-03-25 18:59:36 --> File loaded: application/views/admin/pie_view.php
+DEBUG - 2015-03-25 18:59:36 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:36 --> Total execution time: 0.6708
+DEBUG - 2015-03-25 18:59:45 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:45 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:45 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:45 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:45 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:45 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:45 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:45 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:45 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:45 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:45 --> File loaded: application/views/admin/head_view.php
+DEBUG - 2015-03-25 18:59:45 --> File loaded: application/views/admin/cabecera_view.php
+ERROR - 2015-03-25 18:59:45 --> Severity: Notice  --> Undefined variable: modulos C:\xampp\htdocs\ainvarCMS1.6\application\views\admin\sidebar_view.php 57
+DEBUG - 2015-03-25 18:59:45 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:59:45 --> File loaded: application/views/admin/usuarios/usuarios_view.php
+DEBUG - 2015-03-25 18:59:45 --> File loaded: application/views/admin/pie_view.php
+DEBUG - 2015-03-25 18:59:45 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:45 --> Total execution time: 0.5158
+DEBUG - 2015-03-25 18:59:50 --> Config Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Hooks Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 18:59:50 --> URI Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Router Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Output Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Security Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Input Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 18:59:50 --> Language Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Loader Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 18:59:50 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 18:59:50 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 18:59:50 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 18:59:50 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 18:59:50 --> Session Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 18:59:51 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Session routines successfully run
+DEBUG - 2015-03-25 18:59:51 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 18:59:51 --> Controller Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Model Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Image Lib Class Initialized
+DEBUG - 2015-03-25 18:59:51 --> Helper loaded: my_menu_helper
+DEBUG - 2015-03-25 18:59:51 --> File loaded: application/views/admin/head_view.php
+DEBUG - 2015-03-25 18:59:51 --> File loaded: application/views/admin/cabecera_view.php
+ERROR - 2015-03-25 18:59:51 --> Severity: Notice  --> Undefined variable: modulos C:\xampp\htdocs\ainvarCMS1.6\application\views\admin\sidebar_view.php 57
+DEBUG - 2015-03-25 18:59:51 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 18:59:51 --> File loaded: application/views/admin/settings_view.php
+DEBUG - 2015-03-25 18:59:51 --> File loaded: application/views/admin/pie_view.php
+DEBUG - 2015-03-25 18:59:51 --> Final output sent to browser
+DEBUG - 2015-03-25 18:59:51 --> Total execution time: 0.6708
+DEBUG - 2015-03-25 19:00:06 --> Config Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Hooks Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 19:00:06 --> URI Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Router Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Output Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Security Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Input Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 19:00:06 --> Language Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Loader Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 19:00:06 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 19:00:06 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 19:00:06 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 19:00:06 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Session Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 19:00:06 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Session routines successfully run
+DEBUG - 2015-03-25 19:00:06 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 19:00:06 --> Controller Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:06 --> File loaded: application/views/admin/calendar/headcal_view.php
+DEBUG - 2015-03-25 19:00:06 --> File loaded: application/views/admin/cabecera_view.php
+DEBUG - 2015-03-25 19:00:06 --> File loaded: application/views/admin/sidebar_view.php
+DEBUG - 2015-03-25 19:00:06 --> File loaded: application/views/admin/calendar/calendar_view.php
+DEBUG - 2015-03-25 19:00:06 --> File loaded: application/views/admin/calendar/piecal_view.php
+DEBUG - 2015-03-25 19:00:06 --> Final output sent to browser
+DEBUG - 2015-03-25 19:00:06 --> Total execution time: 0.4992
+DEBUG - 2015-03-25 19:00:07 --> Config Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Hooks Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 19:00:07 --> URI Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Router Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Output Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Security Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Input Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 19:00:07 --> Language Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Loader Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 19:00:07 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Session Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 19:00:07 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Session routines successfully run
+DEBUG - 2015-03-25 19:00:07 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 19:00:07 --> Controller Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: html_helper
+DEBUG - 2015-03-25 19:00:07 --> File loaded: application/views/errors/error_404.php
+DEBUG - 2015-03-25 19:00:07 --> Final output sent to browser
+DEBUG - 2015-03-25 19:00:07 --> Total execution time: 0.4524
+DEBUG - 2015-03-25 19:00:07 --> Config Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Hooks Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Utf8 Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> UTF-8 Support Enabled
+DEBUG - 2015-03-25 19:00:07 --> URI Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Router Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Output Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Security Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Input Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2015-03-25 19:00:07 --> Language Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Loader Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: url_helper
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: text_helper
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: form_helper
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: cookie_helper
+DEBUG - 2015-03-25 19:00:07 --> Database Driver Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Form Validation Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Session Class Initialized
+DEBUG - 2015-03-25 19:00:07 --> Helper loaded: string_helper
+DEBUG - 2015-03-25 19:00:07 --> Encrypt Class Initialized
+DEBUG - 2015-03-25 19:00:08 --> Session routines successfully run
+DEBUG - 2015-03-25 19:00:08 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:08 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:08 --> Helper loaded: date_helper
+DEBUG - 2015-03-25 19:00:08 --> Controller Class Initialized
+DEBUG - 2015-03-25 19:00:08 --> Model Class Initialized
+DEBUG - 2015-03-25 19:00:08 --> Final output sent to browser
+DEBUG - 2015-03-25 19:00:08 --> Total execution time: 0.5616
