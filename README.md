@@ -1,61 +1,88 @@
-# CodeIgniter 4 Framework
+# AinvarCMS
 
-## What is CodeIgniter?
+CMS personal desarrollado en PHP sobre **CodeIgniter 4**, con **Bootstrap 5** en el frontend y **CKEditor 5** como editor de contenidos. Pensado para gestionar los sitios de la familia `ainvar.net` desde un único panel, con sistema de módulos instalables, multi-idioma nativo y galería propia.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Características principales
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- **Páginas**: CRUD completo con estados (borrador/publicado), previsualización y editor con subida de imágenes.
+- **Multi-idioma (i18n)**: núcleo protegido del sistema (no desinstalable ni desactivable). URLs por idioma y modo mono-idioma automático cuando solo hay un idioma activo.
+- **Galería / Media Library**: subida secuencial de imágenes, metadatos y organización por carpetas.
+- **Temas**: vistas del frontend en `public/themes/`, con layout dinámico según el tema activo.
+- **Shortcodes**: `[productos]` y `[galeria]` insertables desde el editor.
+- **Sistema de módulos**: instalación desde ZIP, activación/desactivación y migraciones propias por módulo. El CMS funciona con cero módulos opcionales instalados.
+- **Páginas-módulo**: páginas con flag `embed` y `content=NULL` que incrustan la salida de un módulo.
+- **GDPR**: banner de consentimiento de cookies por categorías (`analytics` / `marketing`), scripts de terceros diferidos hasta obtener consentimiento y política de cookies configurable.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Módulos disponibles
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+| Módulo | Descripción | Estado |
+|---|---|---|
+| Forms | Formularios con envío y gestión desde el panel | Cerrado |
+| FAQ | Preguntas frecuentes | Cerrado |
+| Redirects | Redirecciones gestionadas | Cerrado |
+| Agenda | Eventos con lista `/agenda` y ficha por slug | Terminado |
+| Buscador | Búsqueda en el frontend | Cerrado |
+| Newsletter | Suscripción y envío de boletines | Pendiente |
 
-## Important Change with index.php
+## Stack técnico
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- **Backend**: PHP + CodeIgniter 4
+- **Frontend**: Bootstrap 5, vistas por tema en `public/themes/`
+- **Editor**: CKEditor 5 (contenidos) y Summernote (admin de algunos módulos)
+- **Base de datos**: MySQL/MariaDB, migraciones con el sistema de CI4
+- **Analítica**: GA4 y Google Ads cargados solo tras consentimiento (categorías analytics/marketing)
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## Entorno local (Windows + WAMP)
 
-**Please** read the user guide for a better explanation of how CI4 works!
+1. Clonar el repositorio en la carpeta de WAMP:
 
-## Repository Management
+   ```cmd
+   git clone https://github.com/ainvar2015/ainvarCMS.git C:\wamp64\www\ainvarCMS
+   ```
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+2. Crear la base de datos en MySQL y configurar credenciales en `.env` (copiar desde `env` de CI4):
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+   ```
+   database.default.hostname = localhost
+   database.default.database = ainvarcms
+   database.default.username = root
+   database.default.password =
+   ```
 
-## Contributing
+3. Ejecutar migraciones:
 
-We welcome contributions from the community.
+   ```cmd
+   php spark migrate
+   ```
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+4. Levantar con el servidor de WAMP (virtualhost apuntando a `public/`) o con el servidor integrado:
 
-## Server Requirements
+   ```cmd
+   php spark serve
+   ```
 
-PHP version 8.2 or higher is required, with the following extensions installed:
+## Producción
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+Servidor Linux, desplegado en `/home/ainvare/cms` sirviendo la carpeta `public/` como document root. Puntos a vigilar al subir desde Windows:
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
+- **Sensibilidad a mayúsculas**: en Linux los nombres de archivo y directorio distinguen mayúsculas/minúsculas; una vista o controlador con el case incorrecto funciona en local y falla en producción.
+- **Permisos**: `writable/` debe tener permisos de escritura para el usuario del servidor web.
+- **Migraciones**: ejecutar `php spark migrate` tras cada subida que incluya cambios de esquema (los módulos traen las suyas).
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## Estructura del proyecto
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+```
+app/
+  Modules/          Módulos instalables (Agenda, Forms, FAQ, ...)
+  Views/
+    front/          Vistas del frontend (incluye cookie_banner.php)
+public/
+  themes/           Temas del frontend (layout dinámico por tema activo)
+writable/           Caché, logs y subidas
+```
+
+## Notas de desarrollo
+
+- Los **nombres de archivo de las vistas los fija el controlador**: renombrar una vista sin tocar el `$this->render()`/helper correspondiente rompe la resolución.
+- La subida de imágenes del editor es **secuencial**: el token CSRF se regenera en cada POST, no se pueden paralelizar subidas con el mismo token.
+- Al añadir un módulo con rutas de frontend, hay que registrar su rama en `$registerModuleSubRoutes`.
