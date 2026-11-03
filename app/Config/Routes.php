@@ -62,6 +62,7 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin', 'filter' => 'au
     $routes->post('themes/install', 'Themes::install', ['filter' => 'auth:superadmin']);
     $routes->get('themes/activate/(:num)', 'Themes::activate/$1', ['filter' => 'auth:superadmin']);
     $routes->get('themes/delete/(:num)', 'Themes::delete/$1', ['filter' => 'auth:superadmin']);
+    $routes->post('themes/activate/(:num)', 'Themes::activate/$1', ['filter' => 'auth:superadmin']);
 
     // === AJUSTES: admin y superior ===
     $routes->get('settings', 'Settings::index', ['filter' => 'auth:admin']);
