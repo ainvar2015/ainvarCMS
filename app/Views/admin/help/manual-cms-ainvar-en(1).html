@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMS Ainvar — User Manual</title>
+<style>
+    :root { --verde:#1e6b4f; --gris:#f4f6f8; --borde:#dee2e6; --texto:#2c3e50; }
+    * { box-sizing: border-box; }
+    body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--texto); margin: 0; line-height: 1.6; }
+    .portada { background: linear-gradient(135deg,#1e6b4f,#2c8a66); color: #fff; padding: 60px 20px; text-align: center; }
+    .portada h1 { margin: 0 0 8px; font-size: 2.2rem; }
+    .portada p { margin: 4px 0; opacity: .9; }
+    main { max-width: 900px; margin: 0 auto; padding: 30px 20px 80px; }
+    h2 { color: var(--verde); border-bottom: 2px solid var(--borde); padding-bottom: 6px; margin-top: 48px; font-size: 1.4rem; }
+    h3 { font-size: 1.1rem; margin-top: 28px; }
+    .rol { display: inline-block; font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 10px; vertical-align: middle; margin-left: 8px; letter-spacing: .03em; }
+    .rol.editor { background: #e7f3ff; color: #1a5fa8; }
+    .rol.admin { background: #fff3d6; color: #9a6b00; }
+    .rol.super { background: #fde2e2; color: #b02a2a; }
+    ol.steps, ul.dots { padding-left: 24px; }
+    ol.steps li, ul.dots li { margin-bottom: 6px; }
+    .nota { background: var(--gris); border-left: 4px solid var(--verde); padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 14px 0; font-size: .95rem; }
+    .aviso { background: #fff8e6; border-left-color: #e0a800; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: .95rem; }
+    th, td { border: 1px solid var(--borde); padding: 8px 10px; text-align: left; }
+    th { background: var(--gris); }
+    #indice { background: var(--gris); border-radius: 12px; padding: 18px 26px; }
+    #indice ol { columns: 2; }
+    #indice a { color: var(--verde); text-decoration: none; }
+    #indice a:hover { text-decoration: underline; }
+    kbd { background: #eee; border: 1px solid #ccc; border-radius: 4px; padding: 1px 6px; font-size: .85em; }
+    footer { text-align: center; color: #888; font-size: .85rem; padding: 20px; border-top: 1px solid var(--borde); }
+    @media print {
+        #indice { columns: auto; }
+        h2 { page-break-before: auto; }
+        .no-print { display: none; }
+        body { font-size: 11pt; }
+    }
+    @media (max-width: 640px) { #indice ol { columns: 1; } }
+</style>
+</head>
+<body>
+
+<div class="portada">
+    <h1>CMS Ainvar</h1>
+    <p>User Manual · Version 1.1 · September 2026</p>
+    <p>Guide to the admin panel and the website</p>
+</div>
+
+<main>
+
+<div id="indice">
+    <strong>Contents</strong>
+    <ol>
+        <li><a href="#s1">Signing in</a></li>
+        <li><a href="#s2">The dashboard</a></li>
+        <li><a href="#s3">Pages</a></li>
+        <li><a href="#s4">Menus</a></li>
+        <li><a href="#s5">Media library</a></li>
+        <li><a href="#s6">Gallery</a></li>
+        <li><a href="#s7">News</a></li>
+        <li><a href="#s8">Catalog</a></li>
+        <li><a href="#s9">Templates and themes</a></li>
+        <li><a href="#s10">Users and roles</a></li>
+        <li><a href="#s11">Settings</a></li>
+        <li><a href="#s12">Backups</a></li>
+        <li><a href="#s13">A multilingual site</a></li>
+        <li><a href="#s14">Troubleshooting</a></li>
+    </ol>
+    <p style="margin-bottom:0"><span class="rol editor">EDITOR</span> manages content &nbsp;·&nbsp; <span class="rol admin">ADMIN</span> also: users, settings &nbsp;·&nbsp; <span class="rol super">SUPERADMIN</span> also: backups and modules</p>
+</div>
+
+<h2 id="s1">1. Signing in</h2>
+<ol class="steps">
+    <li>Open your site address followed by <kbd>/admin</kbd> (e.g. <code>www.yourdomain.com/admin</code>).</li>
+    <li>Enter your username (or email) and password, then click <strong>Sign in</strong>.</li>
+</ol>
+<div class="nota">
+    <strong>Inactivity lock.</strong> For security, if you don't move the mouse or press any key for the configured time (15 minutes by default), the screen locks. Press any key and unlock it by entering your <strong>PIN</strong> (set when your user was created). You will land exactly where you left off.
+</div>
+<div class="nota">
+    <strong>Dark mode.</strong> At the top of the sidebar there is a moon/sun button to switch between light and dark themes. Your choice is remembered in that browser, and the login screen respects it too.
+</div>
+<div class="nota aviso">
+    <strong>Signing out.</strong> Always use <strong>Sign out</strong> in the sidebar menu. If you just close the tab, the session stays open until it expires.
+</div>
+
+<h2 id="s2">2. The dashboard</h2>
+<p>On sign-in you will see the main dashboard with:</p>
+<ul class="dots">
+    <li><strong>Summary cards</strong>: pages, submissions, media, etc.</li>
+    <li>A weekly <strong>activity chart</strong>.</li>
+    <li>The latest <strong>form submissions</strong> (contact messages).</li>
+</ul>
+<h3>Global search</h3>
+<p>At the top there is a search field that finds pages, media files, products and gallery images as you type. Press <kbd>Enter</kbd> to open the first result or <kbd>Esc</kbd> to close.</p>
+<h3>Submission notifications</h3>
+<p>The <strong>Submissions</strong> menu shows a red counter with unread contact messages; the browser notifies you with a pop-up when a new one arrives (no page reload needed).</p>
+
+<h2 id="s3">3. Pages <span class="rol editor">EDITOR</span></h2>
+<p>Pages are the foundation of the site: every main navigation entry corresponds to a page.</p>
+<h3>Creating a page</h3>
+<ol class="steps">
+    <li>Sidebar → <strong>Pages</strong> → <strong>New page</strong> button.</li>
+    <li>Enter the <strong>title</strong>. The <em>slug</em> (the web address) is generated automatically from the title; you can change it if needed.</li>
+    <li>Choose the <strong>type</strong>:
+        <ul class="dots">
+            <li><strong>Normal</strong>: free content with the visual editor.</li>
+            <li><strong>Template</strong>: a predefined structure with specific fields (contact, data sheets, etc.).</li>
+            <li><strong>Module</strong>: the page displays the content of an installed module (Gallery, Catalog).</li>
+        </ul>
+    </li>
+    <li>Write the content with the editor. To insert images use the editor's own image button: the media library opens and the image stays linked to it.</li>
+    <li>In the <strong>SEO</strong> tab you can set a title and description for search engines (if left empty, the page's are used).</li>
+    <li>Status: <strong>Published</strong> (visible), <strong>Draft</strong> (saved, not published) or <strong>Hidden</strong>.</li>
+    <li>Save with the button at the bottom.</li>
+</ol>
+<h3>Adding the page to the menu</h3>
+<p>In the same form, enable <strong>«Add to navigation menu»</strong> (the <em>Menu</em> card):</p>
+<ul class="dots">
+    <li>The <strong>label</strong> is the text visitors see in the menu. If left empty, the page title is used.</li>
+    <li>You can write a <strong>different label for each language</strong>; if left empty, the menu automatically uses the page title in that language.</li>
+    <li>Choose a <strong>parent menu item</strong> if it should appear as a dropdown sub-entry, and its <strong>order</strong>.</li>
+</ul>
+<div class="nota">Draft or hidden pages <strong>do not appear in the menu</strong>, even with the checkbox enabled. Publishing them makes them appear automatically.</div>
+<h3>Versions and restore</h3>
+<p>Every time you edit a page, the system keeps a copy of the previous version (last 20). From the page list, the versions button lets you <strong>see the changes</strong> word by word and <strong>restore</strong> a previous version if something went wrong.</p>
+<h3>Editing or deleting</h3>
+<p>From the page list: pencil icon to edit, trash icon to delete (asks for confirmation; deleting a page also removes it from the menu).</p>
+
+<h2 id="s4">4. Menus <span class="rol editor">EDITOR</span></h2>
+<p>In <strong>Menus</strong> you manage the whole navigation bar structure: site pages and custom links (to other websites, PDFs, etc.).</p>
+<h3>Creating or editing an item</h3>
+<ol class="steps">
+    <li>Click <strong>Add item</strong> (or the pencil on an existing one).</li>
+    <li><strong>Link to page</strong>: pick the page from the dropdown — the URL resolves automatically, even translated.</li>
+    <li>Or leave the page on «None» and enter a <strong>custom URL</strong> (https://… or an internal path such as /contact). Check «New window» if it should open in a new tab.</li>
+    <li>Enter the <strong>label</strong> and, if you want, its translation for each active language.</li>
+    <li>Save.</li>
+</ol>
+<h3>Order and hierarchy</h3>
+<p>Items are reordered by <strong>dragging</strong>: drop an item onto another to make it a sub-entry (the site menu shows it as a dropdown). Click <strong>Save order</strong> when done — the button only appears if you moved something.</p>
+<h3>Icons</h3>
+<p>You can attach a small image to each menu item (it shows next to the label in the navigation bar).</p>
+
+<h2 id="s5">5. Media library <span class="rol editor">EDITOR</span></h2>
+<p>This is the central image library of the site. Everything you upload here can be reused in pages, gallery and catalog.</p>
+<ol class="steps">
+    <li><strong>Upload</strong>: drag one or more images into the drop zone (or click to pick them). Review the previews and click <strong>Upload N images</strong>. Max 5 MB per file, JPG/PNG/GIF/WebP formats.</li>
+    <li><strong>Folders</strong>: create folders to organize (e.g. «Sliders», «Team»). Only empty folders can be deleted.</li>
+    <li><strong>Edit</strong>: click an image to change its <strong>title</strong> and its <strong>alt text</strong> — important for accessibility and SEO — or to move it to another folder.</li>
+    <li><strong>Delete</strong>: from that same window, with confirmation. Careful: if the image is used on a page, it will appear broken there.</li>
+</ol>
+<div class="nota">The system generates <strong>thumbnails automatically</strong> on upload: lists load fast and visitors only download the large image when they open it.</div>
+
+<h2 id="s6">6. Gallery <span class="rol editor">EDITOR</span></h2>
+<p>The gallery module displays image collections on the site, organized into <strong>albums</strong>.</p>
+<h3>Uploading images</h3>
+<ol class="steps">
+    <li><strong>Gallery → Upload images</strong>.</li>
+    <li>Drag in the photos and set the <strong>album</strong> (type the name: it autocompletes if it exists, otherwise it is created on upload).</li>
+    <li>Click <strong>Upload</strong> (you will see the progress bar).</li>
+    <li>The <strong>«Add from library»</strong> option takes images already in Media without duplicating files.</li>
+</ol>
+<h3>Managing</h3>
+<p>In the list you can filter by album and delete images. Images can be <strong>deactivated</strong> (they stop showing on the site without being deleted).</p>
+<h3>Translating album names</h3>
+<p>The <strong>«Translate albums»</strong> button: enter each album's name in each active language. On the site, visitors see the name in their language; the web addresses (URLs) do not change, so links never break.</p>
+<div class="nota">The site gallery is displayed through its <strong>module page</strong> (e.g. «Gallery»). If the gallery doesn't load, check in Pages that this page exists, is of type <em>module</em> and is published.</div>
+
+<h2 id="s7">7. News <span class="rol editor">EDITOR</span></h2>
+<p>The news module publishes articles on the site, organized into <strong>categories</strong> (press, updates, events…), with a featured image, publication date and content translated per language.</p>
+<h3>Categories</h3>
+<ol class="steps">
+    <li><strong>News → Categories → New category</strong>: name, slug (generated from the name), description and order.</li>
+    <li>You can enter the <strong>category name in each language</strong>; if left empty, the main name is shown.</li>
+    <li>Categories containing articles cannot be deleted.</li>
+</ol>
+<h3>Creating an article</h3>
+<ol class="steps">
+    <li><strong>News → Articles → New article</strong>.</li>
+    <li>In the main language tab: <strong>title</strong>, <strong>summary</strong> and <strong>content</strong> (visual editor with images, links and videos).</li>
+    <li>In the other language tabs, enter the translations. If a field is left empty, the site automatically shows the main language's content.</li>
+    <li>In the side column: <strong>category</strong>, <strong>featured image</strong> (picked from the media library), <strong>publication date</strong> (you can schedule it in the future), the <strong>featured</strong> switch (shown large at the top of the listing) and <strong>active</strong>.</li>
+    <li>SEO: the article's own meta title and description (optional).</li>
+    <li>Save.</li>
+</ol>
+<h3>Managing articles</h3>
+<p>The list lets you <strong>search</strong> by title or summary and <strong>filter by category</strong>. The star toggles featured; the green/grey button toggles active (an inactive article, or one with a future date, is not shown on the site). The trash deletes the article and its translations.</p>
+<h3>How it looks on the site</h3>
+<ul class="dots">
+    <li>The <strong>«News»</strong> module page (create it as a page of type <em>module → news</em> if it doesn't exist) shows the listing: featured article, category filters and cards with date, image and summary.</li>
+    <li>Each card links to the <strong>article detail</strong>: full content, breadcrumbs and related news from the same category.</li>
+    <li>The site language selector shows the news translated; untranslated fields fall back to the main language automatically.</li>
+</ul>
+<h3>Latest news on any page</h3>
+<p>Type <code>[noticias limite="3"]</code> in the content of any page (for example, the homepage) to embed the latest news as cards. Change the number to show more or fewer.</p>
+
+<h2 id="s8">8. Catalog <span class="rol editor">EDITOR</span></h2>
+<p>Product and category management, if the module is active.</p>
+<h3>Products</h3>
+<ul class="dots">
+    <li><strong>Create</strong>: name, short and long descriptions, price and previous price (to show a discount), main image and image gallery, category, SEO.</li>
+    <li><strong>Enable/disable</strong>: an inactive product is not shown on the site.</li>
+    <li><strong>Import</strong>: bulk creation from a file (format indicated on that same screen).</li>
+</ul>
+<h3>Categories</h3>
+<ul class="dots">
+    <li>With name, slug, description, image and order.</li>
+    <li>In the form you can enter the <strong>category name in each language</strong> (if left empty, the main name is shown).</li>
+    <li>Categories containing products cannot be deleted.</li>
+</ul>
+<div class="nota">Products and categories on the site are displayed through the «Catalog» module page (it must exist and be published, like the gallery).</div>
+
+<h2 id="s9">9. Templates and themes <span class="rol admin">ADMIN</span></h2>
+<h3>Templates</h3>
+<p>Predefined page structures with specific fields (for example, a «Contact» template with map and opening hours). When you create a page of type <em>template</em> you only fill in those fields. Templates are defined by the developer.</p>
+<h3>Themes</h3>
+<p>In <strong>Themes</strong> you activate the site's visual appearance (colors, fonts, layout). Activating one applies the change immediately. Themes are installed by the developer in <code>public/themes/</code>.</p>
+<h3>Modules</h3>
+<p><span class="rol super">SUPERADMIN</span> List of installed modules (Gallery, Catalog…) with an enable/disable switch. A disabled module disappears from the site and the sidebar without losing its data.</p>
+
+<h2 id="s10">10. Users and roles <span class="rol admin">ADMIN</span></h2>
+<table>
+    <tr><th>Role</th><th>What they can do</th></tr>
+    <tr><td><strong>Editor</strong></td><td>Manage pages, menus, media, gallery, catalog and read submissions.</td></tr>
+    <tr><td><strong>Admin</strong></td><td>All the above + users, settings, themes and templates.</td></tr>
+    <tr><td><strong>Superadmin</strong></td><td>All the above + modules and backups.</td></tr>
+</table>
+<ol class="steps">
+    <li><strong>Users → New user</strong>: name, email, password, role and <strong>unlock PIN</strong> (4–6 digits, for the lock screen).</li>
+    <li>From the list you can edit, deactivate or delete users.</li>
+</ol>
+<div class="nota aviso">For security, after 5 failed sign-in attempts, the account is locked for 15 minutes.</div>
+
+<h2 id="s11">11. Settings <span class="rol admin">ADMIN</span></h2>
+<p>Organized in tabs:</p>
+<ul class="dots">
+    <li><strong>General</strong>: site name, <strong>default language</strong>, contact email, <strong>homepage</strong> (which page shows when entering the domain: your choice or the theme's landing) and <strong>maintenance mode</strong>.</li>
+    <li><strong>SEO</strong>: general site description for search engines.</li>
+    <li><strong>Social networks</strong>: profile links.</li>
+    <li><strong>Company</strong>: tax and contact details (may be shown in the site footer depending on the theme).</li>
+    <li><strong>Lock</strong>: minutes of inactivity before the panel screen locks.</li>
+</ul>
+<h3>Maintenance mode</h3>
+<p>With the switch on, visitors see a «We'll be right back» page (a 503 error, which search engines respect) while you, signed in as an admin, see and work on the site normally. Editors do NOT see the site during maintenance. To test it, use a private/incognito window.</p>
+<div class="nota">The <strong>sitemap.xml</strong> (site map for search engines) is generated automatically and includes the versions in each language. It is available at <code>/sitemap.xml</code>.</div>
+
+<h2 id="s12">12. Backups <span class="rol super">SUPERADMIN</span></h2>
+<ol class="steps">
+    <li><strong>Backups → Create backup</strong>. The system packages the full database and all uploaded images into a ZIP file.</li>
+    <li><strong>Download</strong> the ZIP and keep it off the server (your computer, external drive, cloud).</li>
+    <li><strong>Delete</strong> old backups from the server once downloaded — they take up hosting space.</li>
+</ol>
+<div class="nota aviso"><strong>Restoring</strong> a backup is a developer task: it requires importing the SQL into the database and unzipping the images, plus regenerating thumbnails (<code>thumbs:regenerate</code>). It is not an everyday process; if needed, contact whoever maintains the site.</div>
+
+<h2 id="s13">13. A multilingual site</h2>
+<p>The CMS is multilingual out of the box. Key concepts:</p>
+<ul class="dots">
+    <li><strong>Default language</strong>: the one set in Settings (e.g. Spanish). Its content is served without a prefix in the URL (<code>/quienes-somos</code>).</li>
+    <li><strong>Additional languages</strong>: visitors switch with the selector (flags) on the website; the URL carries a prefix (<code>/en/about-us</code>).</li>
+    <li><strong>Partial translation</strong>: each field is translated independently. If a field is left empty in a language, the site automatically shows the default language's content — nothing ever breaks.</li>
+    <li><strong>What can be translated</strong>: page titles and content, menu labels, album and category names (including news categories), news article content, and the modules' own texts (Gallery, Catalog…).</li>
+    <li><strong>Slugs (addresses)</strong>: each language has its own address per page; search engines automatically receive the relationship between languages (hreflang).</li>
+</ul>
+<div class="nota">Workflow tip: write everything in the default language first, publish, and then translate page by page from their language tabs.</div>
+
+<h2 id="s14">14. Troubleshooting</h2>
+<table>
+    <tr><th>Symptom</th><th>Solution</th></tr>
+    <tr><td>A page shows «404 not found»</td><td>Check that it is <strong>published</strong> (Pages) and that the URL has no case errors.</td></tr>
+    <tr><td>The page doesn't appear in the menu</td><td>It must be published AND have «Add to menu» enabled in its edit form. Also check the item is active in the Menus section.</td></tr>
+    <tr><td>Switching language lands on a different page</td><td>Each page is linked to its translations via its slug; if a translation points to another page, review the language tabs of both.</td></tr>
+    <tr><td>«Site under maintenance» and can't get in</td><td>Go to <kbd>/admin</kbd> (the panel is always reachable) and turn off maintenance mode in Settings. If you forgot your password, another admin can help.</td></tr>
+    <tr><td>The screen locked and I forgot my PIN</td><td>Sign out (there is a link on the lock screen) and sign back in with username and password.</td></tr>
+    <tr><td>I deleted content by mistake</td><td>Pages: use the version history to restore. Other content: recover the latest backup with the developer's help.</td></tr>
+    <tr><td>I upload an image and it doesn't show on the site</td><td>Check the format (JPG/PNG/GIF/WebP) and size (max 5 MB). In media, verify the file exists; in gallery, that the image is active and in an existing album.</td></tr>
+    <tr><td>The panel search doesn't find something that exists</td><td>Type at least 2 characters and wait half a second (it searches when you stop typing).</td></tr>
+                <tr><td>A news article doesn't appear on the site</td><td>Check that it is <strong>active</strong> and that its publication date is not in the future.</td></tr>
+</table>
+
+<footer>CMS Ainvar · User Manual v1.0 · To update this manual, edit the source document of the project.</footer>
+
+</main>
+</body>
+</html>

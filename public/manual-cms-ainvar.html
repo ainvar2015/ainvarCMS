@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMS Ainvar — Manual de usuario</title>
+<style>
+    :root { --verde:#1e6b4f; --gris:#f4f6f8; --borde:#dee2e6; --texto:#2c3e50; }
+    * { box-sizing: border-box; }
+    body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--texto); margin: 0; line-height: 1.6; }
+    .portada { background: linear-gradient(135deg,#1e6b4f,#2c8a66); color: #fff; padding: 60px 20px; text-align: center; }
+    .portada h1 { margin: 0 0 8px; font-size: 2.2rem; }
+    .portada p { margin: 4px 0; opacity: .9; }
+    main { max-width: 900px; margin: 0 auto; padding: 30px 20px 80px; }
+    h2 { color: var(--verde); border-bottom: 2px solid var(--borde); padding-bottom: 6px; margin-top: 48px; font-size: 1.4rem; }
+    h3 { font-size: 1.1rem; margin-top: 28px; }
+    .rol { display: inline-block; font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 10px; vertical-align: middle; margin-left: 8px; letter-spacing: .03em; }
+    .rol.editor { background: #e7f3ff; color: #1a5fa8; }
+    .rol.admin { background: #fff3d6; color: #9a6b00; }
+    .rol.super { background: #fde2e2; color: #b02a2a; }
+    ol.steps, ul.dots { padding-left: 24px; }
+    ol.steps li, ul.dots li { margin-bottom: 6px; }
+    .nota { background: var(--gris); border-left: 4px solid var(--verde); padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 14px 0; font-size: .95rem; }
+    .aviso { background: #fff8e6; border-left-color: #e0a800; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: .95rem; }
+    th, td { border: 1px solid var(--borde); padding: 8px 10px; text-align: left; }
+    th { background: var(--gris); }
+    #indice { background: var(--gris); border-radius: 12px; padding: 18px 26px; }
+    #indice ol { columns: 2; }
+    #indice a { color: var(--verde); text-decoration: none; }
+    #indice a:hover { text-decoration: underline; }
+    kbd { background: #eee; border: 1px solid #ccc; border-radius: 4px; padding: 1px 6px; font-size: .85em; }
+    footer { text-align: center; color: #888; font-size: .85rem; padding: 20px; border-top: 1px solid var(--borde); }
+    @media print {
+        #indice { columns: auto; }
+        h2 { page-break-before: auto; }
+        .no-print { display: none; }
+        body { font-size: 11pt; }
+    }
+    @media (max-width: 640px) { #indice ol { columns: 1; } }
+</style>
+</head>
+<body>
+
+<div class="portada">
+    <h1>CMS Ainvar</h1>
+    <p>Manual de usuario · Versión 1.0 · Septiembre 2026</p>
+    <p>Guía de uso del panel de administración y del sitio web</p>
+</div>
+
+<main>
+
+<div id="indice">
+    <strong>Contenido</strong>
+    <ol>
+        <li><a href="#s1">Acceder al panel</a></li>
+        <li><a href="#s2">El escritorio</a></li>
+        <li><a href="#s3">Páginas</a></li>
+        <li><a href="#s4">Menús</a></li>
+        <li><a href="#s5">Medios (biblioteca de archivos)</a></li>
+        <li><a href="#s6">Galería</a></li>
+        <li><a href="#s7">Catálogo</a></li>
+        <li><a href="#s8">Plantillas y temas</a></li>
+        <li><a href="#s9">Usuarios y roles</a></li>
+        <li><a href="#s10">Ajustes</a></li>
+        <li><a href="#s11">Copias de seguridad</a></li>
+        <li><a href="#s12">El sitio en varios idiomas</a></li>
+        <li><a href="#s13">Solución de problemas</a></li>
+    </ol>
+    <p style="margin-bottom:0"><span class="rol editor">EDITOR</span> puede gestionar contenidos &nbsp;·&nbsp; <span class="rol admin">ADMIN</span> además: usuarios, ajustes &nbsp;·&nbsp; <span class="rol super">SUPERADMIN</span> además: copias de seguridad y módulos</p>
+</div>
+
+<h2 id="s1">1. Acceder al panel</h2>
+<ol class="steps">
+    <li>Abre en el navegador la dirección del sitio seguida de <kbd>/admin</kbd> (p. ej. <code>www.tudominio.com/admin</code>).</li>
+    <li>Introduce tu usuario (o email) y contraseña y pulsa <strong>Entrar</strong>.</li>
+</ol>
+<div class="nota">
+    <strong>Bloqueo por inactividad.</strong> Por seguridad, si no mueves el ratón ni pulsas teclas durante el tiempo configurado (15 minutos por defecto), la pantalla se bloquea. Toca cualquier tecla y desbloquea escribiendo tu <strong>PIN</strong> (lo definiste al crear tu usuario). Recuperarás exactamente la pantalla donde estabas.
+</div>
+<div class="nota">
+    <strong>Modo oscuro.</strong> En la parte superior de la barra lateral hay un botón con luna/sol para cambiar entre tema claro y oscuro. La elección se recuerda en ese navegador, y la pantalla de login la respeta.
+</div>
+<div class="nota aviso">
+    <strong>Cierre de sesión.</strong> Usa siempre <strong>Salir</strong> en el menú lateral. Si cierras la pestaña sin salir, la sesión seguirá abierta hasta que caduque.
+</div>
+
+<h2 id="s2">2. El escritorio</h2>
+<p>Al entrar verás el panel principal con:</p>
+<ul class="dots">
+    <li><strong>Tarjetas resumen</strong>: páginas, envíos, medios, etc.</li>
+    <li><strong>Gráfico de actividad</strong> semanal.</li>
+    <li><strong>Últimos envíos</strong> de formularios de contacto.</li>
+</ul>
+<h3>Buscador global</h3>
+<p>En la parte superior hay un campo de búsqueda que encuentra páginas, archivos de medios, productos e imágenes de galería mientras escribes. Pulsa <kbd>Intro</kbd> para ir al primer resultado o <kbd>Esc</kbd> para cerrar.</p>
+<h3>Notificaciones de envíos</h3>
+<p>El menú <strong>Envíos</strong> muestra un contador rojo con los mensajes de contacto sin leer; el navegador te avisa con un aviso emergente cuando llega uno nuevo (sin recargar la página).</p>
+
+<h2 id="s3">3. Páginas <span class="rol editor">EDITOR</span></h2>
+<p>Las páginas son la base del sitio: cada entrada del menú principal corresponde a una página.</p>
+<h3>Crear una página</h3>
+<ol class="steps">
+    <li>Menú lateral → <strong>Páginas</strong> → botón <strong>Nueva página</strong>.</li>
+    <li>Rellena el <strong>título</strong>. El <em>slug</em> (la dirección web) se genera solo a partir del título; puedes cambiarlo si lo necesitas.</li>
+    <li>Elige el <strong>tipo</strong>:
+        <ul class="dots">
+            <li><strong>Normal</strong>: contenido libre con el editor visual.</li>
+            <li><strong>Plantilla</strong>: estructura predefinida con campos concretos (contacto, fichas, etc.).</li>
+            <li><strong>Módulo</strong>: la página muestra el contenido de un módulo instalado (Galería, Catálogo).</li>
+        </ul>
+    </li>
+    <li>Redacta el contenido con el editor. Para insertar imágenes usa el botón de imagen del propio editor: se abre la biblioteca de medios y la imagen queda vinculada a ella.</li>
+    <li>En la pestaña <strong>SEO</strong> puedes definir título y descripción para buscadores (si los dejas vacíos se usan los de la página).</li>
+    <li>Estado: <strong>Publicada</strong> (visible), <strong>Borrador</strong> (guardada sin publicar) u <strong>Oculta</strong>.</li>
+    <li>Guarda con el botón inferior.</li>
+</ol>
+<h3>Añadir la página al menú</h3>
+<p>En el mismo formulario, activa <strong>«Añadir al menú de navegación»</strong> (tarjeta <em>Menú</em>):</p>
+<ul class="dots">
+    <li>La <strong>etiqueta</strong> es el texto que verá el visitante en el menú. Si la dejas vacía se usa el título de la página.</li>
+    <li>Puedes escribir una <strong>etiqueta distinta para cada idioma</strong>; si la dejas vacía, el menú usará automáticamente el título de la página en ese idioma.</li>
+    <li>Elige <strong>menú padre</strong> si debe aparecer como subopción desplegable, y el <strong>orden</strong>.</li>
+</ul>
+<div class="nota">Las páginas en borrador u ocultas <strong>no aparecen en el menú</strong> del sitio aunque tengan la casilla activada. Al publicarlas, aparecen automáticamente.</div>
+<h3>Versiones y restauración</h3>
+<p>Cada vez que editas una página, el sistema guarda una copia de la versión anterior (conserva las últimas 20). En el listado de páginas, el botón de versiones permite <strong>ver los cambios</strong> palabra a palabra y <strong>restaurar</strong> una versión anterior si algo salió mal.</p>
+<h3>Editar o borrar</h3>
+<p>Desde el listado de páginas: icono de lápiz para editar, papelera para borrar (pedirá confirmación; borrar una página la quita también del menú).</p>
+
+<h2 id="s4">4. Menús <span class="rol editor">EDITOR</span></h2>
+<p>En <strong>Menús</strong> gestionas la estructura completa de la barra de navegación: páginas del sitio y enlaces personalizados (a otras webs, PDFs, etc.).</p>
+<h3>Crear o editar un elemento</h3>
+<ol class="steps">
+    <li>Pulsa <strong>Añadir item</strong> (o el lápiz de uno existente).</li>
+    <li><strong>Enlazar a página</strong>: elige la página del desplegable — la URL se resuelve sola, incluso traducida.</li>
+    <li>O deja la página en «Ninguna» y escribe una <strong>URL manual</strong> (https://… o una ruta interna como /contacto). Marca «Nueva ventana» si debe abrirse en otra pestaña.</li>
+    <li>Escribe la <strong>etiqueta</strong> y, si quieres, su traducción para cada idioma activo.</li>
+    <li>Guarda.</li>
+</ol>
+<h3>Orden y jerarquía</h3>
+<p>Los elementos se reordenan <strong>arrastrando</strong>: suelta un elemento sobre otro para hacerlo subopción suya (el menú del sitio lo mostrará como desplegable). Pulsa <strong>Guardar orden</strong> cuando termines — el botón aparece solo si has movido algo.</p>
+<h3>Iconos</h3>
+<p>Puedes asociar una imagen pequeña a cada elemento del menú (se muestra junto a la etiqueta en la barra de navegación).</p>
+
+<h2 id="s5">5. Medios (biblioteca de archivos) <span class="rol editor">EDITOR</span></h2>
+<p>Es la biblioteca central de imágenes del sitio. Todo lo que subas aquí puede reutilizarse en páginas, galería y catálogo.</p>
+<ol class="steps">
+    <li><strong>Subir</strong>: arrastra una o varias imágenes a la zona de subida (o haz clic para elegirlas). Revisa las vistas previas y pulsa <strong>Subir N imágenes</strong>. Máximo 5 MB por archivo, formatos JPG/PNG/GIF/WebP.</li>
+    <li><strong>Carpetas</strong>: crea carpetas para organizar (p. ej. «Sliders», «Equipo»). Solo se pueden borrar carpetas vacías.</li>
+    <li><strong>Editar</strong>: haz clic en una imagen para cambiar su <strong>título</strong> y su <strong>texto alternativo (alt)</strong> — importante para accesibilidad y SEO — o moverla de carpeta.</li>
+    <li><strong>Eliminar</strong>: desde esa misma ventana, con confirmación. Ojo: si la imagen se usa en alguna página, quedará rota.</li>
+</ol>
+<div class="nota">El sistema genera <strong>miniaturas automáticamente</strong> al subir: las listas cargan rápido y el visitante solo descarga la imagen grande cuando la abre.</div>
+
+<h2 id="s6">6. Galería <span class="rol editor">EDITOR</span></h2>
+<p>El módulo de galería muestra colecciones de imágenes en el sitio, organizadas en <strong>álbumes</strong>.</p>
+<h3>Subir imágenes</h3>
+<ol class="steps">
+    <li><strong>Galería → Subir imágenes</strong>.</li>
+    <li>Arrastra las fotos e indica el <strong>álbum</strong> (escribe el nombre: si existe lo autocompleta, si no, se crea al subir).</li>
+    <li>Pulsa <strong>Subir</strong> (verás la barra de progreso).</li>
+    <li>Opción <strong>«Añadir de la biblioteca»</strong>: toma imágenes ya subidas a Medios sin duplicar archivos.</li>
+</ol>
+<h3>Gestionar</h3>
+<p>En el listado puedes filtrar por álbum y eliminar imágenes. Las imágenes pueden <strong>desactivarse</strong> (dejan de verse en el sitio sin borrarlas).</p>
+<h3>Traducir nombres de álbum</h3>
+<p>Botón <strong>«Traducir álbumes»</strong>: escribe el nombre de cada álbum en cada idioma activo. En el sitio, el visitante verá el nombre en su idioma; las direcciones web (URLs) no cambian, así que los enlaces nunca se rompen.</p>
+<div class="nota">La galería del sitio se muestra a través de su <strong>página-módulo</strong> (p. ej. «Galería»). Si la galería no carga, comprueba en Páginas que esa página existe, es de tipo <em>módulo</em> y está publicada.</div>
+
+<h2 id="s7">7. Catálogo <span class="rol editor">EDITOR</span></h2>
+<p>Gestión de productos y categorías si el módulo está activo.</p>
+<h3>Productos</h3>
+<ul class="dots">
+    <li><strong>Crear</strong>: nombre, descripciones corta y larga, precio y precio anterior (para mostrar descuento), imagen principal y galería de imágenes, categoría, SEO.</li>
+    <li><strong>Activar/desactivar</strong>: un producto inactivo no se muestra en el sitio.</li>
+    <li><strong>Importar</strong>: permite alta masiva desde archivo (formato indicado en la propia pantalla).</li>
+</ul>
+<h3>Categorías</h3>
+<ul class="dots">
+    <li>Con nombre, slug, descripción, imagen y orden.</li>
+    <li>En el formulario puedes escribir el <strong>nombre de la categoría en cada idioma</strong> (si lo dejas vacío se muestra el nombre principal).</li>
+    <li>No se pueden borrar categorías con productos dentro.</li>
+</ul>
+<div class="nota">Los productos y categorías del sitio se muestran a través de la página-módulo «Catálogo» (debe existir y estar publicada, igual que la galería).</div>
+
+<h2 id="s8">8. Plantillas y temas <span class="rol admin">ADMIN</span></h2>
+<h3>Plantillas</h3>
+<p>Estructuras de página predefinidas con campos concretos (por ejemplo, una plantilla «Contacto» con mapa y horario). Al crear una página de tipo <em>plantilla</em> solo rellenas esos campos. Las plantillas las define el desarrollador.</p>
+<h3>Temas</h3>
+<p>En <strong>Temas</strong> se activa el aspecto visual del sitio (colores, tipografías, estructura). Activa uno y el cambio es inmediato. Los temas los instala el desarrollador en <code>public/themes/</code>.</p>
+<h3>Módulos</h3>
+<p><span class="rol super">SUPERADMIN</span> Lista de módulos instalados (Galería, Catálogo…) con interruptor de activar/desactivar. Un módulo desactivado desaparece del sitio y del menú lateral sin perder sus datos.</p>
+
+<h2 id="s9">9. Usuarios y roles <span class="rol admin">ADMIN</span></h2>
+<table>
+    <tr><th>Rol</th><th>Qué puede hacer</th></tr>
+    <tr><td><strong>Editor</strong></td><td>Gestionar páginas, menús, medios, galería, catálogo y leer envíos.</td></tr>
+    <tr><td><strong>Admin</strong></td><td>Lo anterior + usuarios, ajustes, temas y plantillas.</td></tr>
+    <tr><td><strong>Superadmin</strong></td><td>Lo anterior + módulos y copias de seguridad.</td></tr>
+</table>
+<ol class="steps">
+    <li><strong>Usuarios → Nuevo usuario</strong>: nombre, email, contraseña, rol y <strong>PIN de desbloqueo</strong> (4-6 dígitos, para la pantalla de bloqueo).</li>
+    <li>Desde el listado puedes editar, desactivar o eliminar usuarios.</li>
+</ol>
+<div class="nota aviso">Por seguridad, tras 5 intentos fallidos de login, la cuenta se bloquea 15 minutos.</div>
+
+<h2 id="s10">10. Ajustes <span class="rol admin">ADMIN</span></h2>
+<p>Organizados en pestañas:</p>
+<ul class="dots">
+    <li><strong>General</strong>: nombre del sitio, <strong>idioma por defecto</strong>, email de contacto, <strong>página de portada</strong> (qué página se muestra al entrar al dominio: la que elijas o la portada del tema) y <strong>modo mantenimiento</strong>.</li>
+    <li><strong>SEO</strong>: descripción general del sitio para buscadores.</li>
+    <li><strong>Redes sociales</strong>: enlaces a perfiles.</li>
+    <li><strong>Empresa</strong>: datos fiscales y de contacto (pueden mostrarse en el pie del sitio según el tema).</li>
+    <li><strong>Bloqueo</strong>: minutos de inactividad antes de bloquear la pantalla del panel.</li>
+</ul>
+<h3>Modo mantenimiento</h3>
+<p>Con el interruptor activado, los visitantes ven una página de «Volvemos enseguida» (error 503, que los buscadores respetan) y tú, estando logueado como admin, ves y trabajas con el sitio con normalidad. Los editores NO ven el sitio en mantenimiento. Para probarlo usa una ventana de incógnito.</p>
+<div class="nota">El <strong>sitemap.xml</strong> (mapa del sitio para buscadores) se genera automáticamente e incluye las versiones en cada idioma. Está disponible en <code>/sitemap.xml</code>.</div>
+
+<h2 id="s11">11. Copias de seguridad <span class="rol super">SUPERADMIN</span></h2>
+<ol class="steps">
+    <li><strong>Copias de seguridad → Crear copia</strong>. El sistema empaqueta la base de datos completa y todas las imágenes subidas en un archivo ZIP.</li>
+    <li><strong>Descargar</strong> el ZIP y guárdalo fuera del servidor (tu equipo, disco externo, nube).</li>
+    <li><strong>Eliminar</strong> las copias antiguas del servidor cuando ya las tengas descargadas — ocupan espacio en el hosting.</li>
+</ol>
+<div class="nota aviso"><strong>Restaurar</strong> una copia es una tarea del desarrollador: requiere importar el SQL a la base de datos y descomprimir las imágenes, además de regenerar miniaturas (<code>thumbs:regenerate</code>). No es un proceso del día a día; ante necesidad, contacta con quien mantenga el sitio.</div>
+
+<h2 id="s12">12. El sitio en varios idiomas</h2>
+<p>El CMS es multidioma de serie. Conceptos clave:</p>
+<ul class="dots">
+    <li><strong>Idioma por defecto</strong>: el configurado en Ajustes (p. ej. español). Su contenido se sirve sin prefijo en la URL (<code>/quienes-somos</code>).</li>
+    <li><strong>Idiomas adicionales</strong>: el visitante cambia con el selector (banderas) en la web; la URL lleva prefijo (<code>/en/about-us</code>).</li>
+    <li><strong>Traducción parcial</strong>: cada campo se traduce de forma independiente. Si un campo queda vacío en un idioma, el sitio muestra automáticamente el contenido del idioma por defecto — nunca se rompe.</li>
+    <li><strong>Qué se traduce</strong>: títulos y contenidos de páginas, etiquetas de menú, nombres de álbumes y de categorías, y textos propios de los módulos (Galería, Catálogo…).</li>
+    <li><strong>Slugs (direcciones)</strong>: cada idioma tiene su propia dirección por página; los buscadores reciben la relación entre idiomas (hreflang) automáticamente.</li>
+</ul>
+<div class="nota">Consejo de trabajo: redacta primero todo en el idioma por defecto, publica, y después traduce página a página desde sus pestañas de idioma.</div>
+
+<h2 id="s13">13. Solución de problemas</h2>
+<table>
+    <tr><th>Síntoma</th><th>Solución</th></tr>
+    <tr><td>Una página da «404 no encontrado»</td><td>Comprueba que está <strong>publicada</strong> (Páginas) y que la URL no tiene errores de mayúsculas.</td></tr>
+    <tr><td>La página no aparece en el menú</td><td>Debe estar publicada Y tener activada la opción «Añadir al menú» en su edición. Revisa también que el elemento del menú esté activo en la sección Menús.</td></tr>
+    <tr><td>El cambio de idioma lleva a otra página distinta</td><td>Cada página se enlaza con sus traducciones mediante el slug; si una traducción apunta a otra página, revisa las pestañas de idioma de ambas.</td></tr>
+    <tr><td>«El sitio está en mantenimiento» y no puedo entrar</td><td>Entra en <kbd>/admin</kbd> (el panel siempre es accesible), desactiva el modo mantenimiento en Ajustes. Si no recuerdas la contraseña, otro admin puede ayudarte.</td></tr>
+    <tr><td>La pantalla se bloqueó y no recuerdo el PIN</td><td>Cierra sesión (hay enlace en la pantalla de bloqueo) y entra de nuevo con usuario y contraseña.</td></tr>
+    <tr><td>He borrado contenido por error</td><td>Páginas: usa el historial de versiones para restaurar. Resto de contenidos: recupera la última copia de seguridad con ayuda del desarrollador.</td></tr>
+    <tr><td>Subo una imagen y no se ve en el sitio</td><td>Comprueba el formato (JPG/PNG/GIF/WebP) y el tamaño (máx. 5 MB). En medios, verifica que el archivo existe y en galería que la imagen está activa y en un álbum existente.</td></tr>
+    <tr><td>El buscador del panel no encuentra algo que existe</td><td>Escribe al menos 2 letras y espera medio segundo (busca al dejar de escribir).</td></tr>
+</table>
+
+<footer>CMS Ainvar · Manual de usuario v1.0 · Para actualizar este manual, edita <code>app/Views/docs/</code> o el documento fuente del proyecto.</footer>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# Carpetas Varias
+Docs/
+Modules/
+tests/
+themes/
+
+# Archivos Variados
+.env
+*.log
+.htaccess
+.vscode
+spark
