@@ -34,6 +34,7 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin', 'filter' => 'au
     $routes->get('pages/edit/(:num)', 'Pages::edit/$1');
     $routes->post('pages/update/(:num)', 'Pages::update/$1');
     $routes->get('pages/delete/(:num)', 'Pages::delete/$1');
+    $routes->post('pages/delete/(:num)', 'Pages::delete/$1');
     $routes->get('pages/template-fields/(:num)', 'Pages::getTemplateFields/$1');
     $routes->post('pages/restore/(:num)', 'Pages::restore/$1');
     $routes->get('pages/revision/(:num)', 'Pages::viewRevision/$1');
@@ -61,9 +62,10 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin', 'filter' => 'au
     $routes->get('themes', 'Themes::index', ['filter' => 'auth:superadmin']);
     $routes->post('themes/install', 'Themes::install', ['filter' => 'auth:superadmin']);
     $routes->get('themes/activate/(:num)', 'Themes::activate/$1', ['filter' => 'auth:superadmin']);
-    $routes->get('themes/delete/(:num)', 'Themes::delete/$1', ['filter' => 'auth:superadmin']);
     $routes->post('themes/activate/(:num)', 'Themes::activate/$1', ['filter' => 'auth:superadmin']);
-    
+    $routes->get('themes/delete/(:num)', 'Themes::delete/$1', ['filter' => 'auth:superadmin']);
+    $routes->post('themes/delete/(:num)', 'Themes::delete/$1', ['filter' => 'auth:superadmin']);
+
 
     // === AJUSTES: admin y superior ===
     $routes->get('settings', 'Settings::index', ['filter' => 'auth:admin']);
